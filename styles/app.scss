@@ -1,0 +1,52 @@
+$color-green: rgb(22, 208, 172);
+$color-blue: rgb(0, 155, 202);
+$color-navigation: rgb(150, 149, 150);
+$color-text: rgb(40, 37, 40);
+$color-line: rgb(186, 189, 193);
+$color-person: rgb(182, 186, 189);
+$color-footer: rgb(79, 79, 79);
+$color-blue-button: rgb(49, 212, 231);
+$color-white: white;
+$color-circle: rgb(196, 199, 199);
+$background-footer: rgba(24,24,24,0.7);
+
+@import "section-header";
+@import "section-features";
+@import "section-video";
+@import "button-header";
+@import "section-team";
+@import "section-whatsays";
+@import "section-footer";
+@import "tablet-size";
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("../../fonts/Raleway-SemiBold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSyns;
+  src: url("../../fonts/OpenSans.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.app-mobileapp {
+  display: flex;
+  flex-direction: column;
+}
+
+.google-map {
+  width: 465px;
+  height: 405px;
+}
+
+
+
+

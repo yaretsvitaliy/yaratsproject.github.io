@@ -1,0 +1,189 @@
+.section-team {
+  height: 701px;
+  background: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-team__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.section-team__name-line {
+  border: none;
+  height: 3px;
+  width: 60px;
+  background-color: $color-line;
+}
+
+.section-team__name-text {
+  color: $color-green;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-team__logo-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-team__information {
+  font-family: OpenSyns;
+  font-size: 18px;
+  line-height: 40px;
+  color: $color-text;
+  width: 895px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-team__team-images {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.team-images__person-1 {
+  border-radius:  5px;
+  width: 268px;
+  height: 300px;
+  margin-right: 40px;
+  background:url("../../images/person-1.png");
+}
+
+.team-images__person-1:hover > .person__text, .team-images__person-2:hover > .person__text, .team-images__person-3:hover > .person__text, .team-images__person-4:hover > .person__text {
+  visibility: visible;
+  background: rgba(14,180,147,0.7);
+}
+
+.team-images__person-2 {
+  border-radius:  5px;
+  width: 268px;
+  height: 300px;
+  background:url("../../images/person-2.png");
+}
+
+
+.team-images__person-3 {
+  border-radius:  5px;
+  width: 268px;
+  height: 300px;
+  margin-left: 40px;
+  background:url("../../images/person-3.png");
+}
+
+.person__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: OpenSyns;
+  visibility: hidden;
+}
+
+.team-images__person-4 {
+  border-radius: 5px;
+  width: 268px;
+  height: 300px;
+  background:url("../../images/person-4.png");
+  margin-left: 40px;
+}
+
+.person__text-head {
+  font-weight: bold;
+  width: 192px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.person__text-discription {
+  height: 86px;
+  width: 224px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 16px;
+}
+
+
+
+
+.team-images__person-network {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.person-network__twitter, .person-network__facebook, .person-network__google {
+  width: 43px;
+  height: 43px;
+  background-color: black;
+  opacity: 0.6;
+  margin: 2px;
+}
+
+.person-network__twitter-logo {
+  background: url("../../images/sprite-network.png") -32px 43px;
+  width: 43px;
+  height: 43px;
+  top: 2.5px;
+  position: relative;
+}
+
+.person-network__facebook-logo {
+  background: url("../../images/sprite-network.png") 4px 43px;
+  width: 43px;
+  height: 43px;
+}
+
+.person-network__google-logo {
+  background: url("../../images/sprite-network.png") 46px 43px;
+  width: 43px;
+  height: 43px;
+}
+
+.person-1__name, .person-1__name-post, .person-2__name, .person-2__name-post, .person-3__name, .person-3__name-post, .person-4__name, .person-4__name-post {
+  font-family: OpenSyns;
+  margin: 10px;
+}
+
+.person-1__name, .person-2__name, .person-3__name, .person-4__name {
+  font-size: 18px;
+  position: relative;
+  left: 78px;
+}
+
+.person-1__name-post, .person-2__name-post, .person-3__name-post, .person-4__name-post {
+  font-size: 13px;
+  position: relative;
+  left: 64px;
+  color: rgb(182, 186, 189);
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}

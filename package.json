@@ -1,0 +1,20 @@
+{
+  "name": "individual_yarats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/app.scss -o build/styles",
+    "min": "minify -o build/result.min.css build/styles/app.css"
+  },
+  "dependencies": {
+    "bootstrap": "latest",
+    "reset-css": "latest",
+    "swiper": "^4.2.6",
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "minifier": "latest"
+  }
+}

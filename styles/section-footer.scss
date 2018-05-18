@@ -1,0 +1,271 @@
+.section-footer {
+  height: 681px;
+  background: url(../../images/background-footer.png)  no-repeat;
+  background-size: 100%;
+}
+
+.section-footer__wrapper {
+  background: $background-footer;
+  height: inherit;
+}
+
+.section-footer__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.section-footer__name-line {
+  border: none;
+  height: 3px;
+  width: 60px;
+  background-color: $color-line;
+}
+
+.section-footer__name-text {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-footer__logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layer-footer {
+  height: 18px;
+  width: 160px;
+}
+
+.section-footer__contacts-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 89px;
+  margin-bottom: 84px;
+}
+
+.section-footer__contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+}
+
+.section-footer__name-head {
+  font-family: Raleway;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+}
+
+.section-footer__info-text {
+  font-family: OpenSyns;
+  text-align: left;
+  width: 510px;
+  height: 36px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.section-footer__social-network {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 42px;
+  margin-left: -13px;
+}
+
+.section-footer__network-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.dark-blue {
+  background: rgb(59, 89, 151);
+}
+
+.blue {
+  background: rgb(62, 194, 243);
+}
+
+.red {
+  background: rgb(228, 76, 65);
+}
+
+.section-footer__logo-facebook, .section-footer__logo-twitter, .section-footer__logo-google {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  left: 5px;
+
+}
+
+.section-footer__logo-twitter {
+  background: url("../../images/sprite-network.png") 79px 43px;
+}
+
+.section-footer__logo-facebook {
+  background: url("../../images/sprite-network.png") 116px 43px;
+}
+
+.section-footer__logo-google {
+  background: url("../../images/sprite-network.png") 39px 43px;
+}
+
+.section-footer__phone-number, .section-footer__mail {
+  font-family: OpenSyns;
+  font-size: 14px;
+  color: rgb(191, 172, 226);
+  margin-top: 22px;
+}
+
+.section-footer__form {
+  width: 571px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-footer__form-input {
+  height: 42px;
+  width: 276px;
+  border: 1.5px solid $color-white;
+  border-radius: 4px;
+  font-family: OpenSyns;
+  font-size: 14px;
+  background: $color-white;
+  text-indent: 2em;
+  margin: 10px;
+  resize: none;
+}
+
+
+.form-line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.text-message {
+  height: 170px;
+  width: 571px;
+}
+
+.section-footer__button {
+  width: 170px;
+  height: 47px;
+  border: 1px;
+  border-radius: 4px;
+  background-color: $color-blue-button;
+  color: $color-white;
+  font-family: OpenSyns;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-left: 410px;
+  margin-top: 20px;
+}
+
+.section-footer__footer-line {
+  width: 100%;
+  border: 1px solid $color-footer;
+
+}
+
+.section-footer__footer-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.section-footer__business-name, .section-footer__designed {
+  font-size: 14px;
+  font-family: OpenSyns;
+  color: $color-footer;
+}
+
+.section-footer__designed {
+  margin-left: 90px;
+}
+
+
+.section-footer__logo-facebook:hover, .section-footer__logo-google:hover {
+  animation: shake 1300ms ease 0s normal none 1 running;
+}
+
+.section-footer__logo-facebook:hover, .section-footer__logo-google:hover {
+  animation: shake 1300ms ease 0s normal none 1 running;
+}
+
+
+@keyframes shake {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(-30deg);
+  }
+  20% {
+    transform: rotateZ(15deg);
+  }
+  30% {
+    transform: rotateZ(-10deg);
+  }
+  40% {
+    transform: rotateZ(7.5deg);
+  }
+  50% {
+    transform: rotateZ(-6deg);
+  }
+  60% {
+    transform: rotateZ(5deg);
+  }
+  70% {
+    transform: rotateZ(-4.28571deg);
+  }
+  80% {
+    transform: rotateZ(3.75deg);
+  }
+  90% {
+    transform: rotateZ(-3.33333deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.section-footer__logo-twitter:hover {
+  animation-duration: 0.15s;
+  animation-iteration-count: infinite;
+  animation-name: hvr;
+  animation-timing-function: linear;
+}
+
+@keyframes hvr {
+  50% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.message-info {
+  font-family: Raleway;
+  font-size: 15px;
+  text-align: left;
+  color:$color-green;
+  margin-left: 10px;
+}

@@ -1,0 +1,113 @@
+.section-video {
+  height: 447px;
+  background-color: $color-blue-button;
+}
+
+.section-video__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 78px;
+}
+
+.section-video__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-video__name-head {
+  font-family: Raleway;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.section-video__info-text {
+  font-family: OpenSyns;
+  text-align: left;
+  width: 538px;
+  height: 92px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.section-video__sprite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  position: relative;
+  left: -148px;
+}
+
+.icon-apple {
+  width: 68px;
+  height: 68px;
+  background-color: $color-blue;
+  border-radius: 50px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+
+&:hover {
+  transform: rotate(402grad);
+  }
+}
+
+.icon-android {
+  width: 68px;
+  height: 68px;
+  background-color: $color-blue;
+  border-radius: 50px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: rotate(402grad);
+  }
+}
+
+.icon-windows {
+  width: 68px;
+  height: 68px;
+  background-color: $color-blue;
+  border-radius: 50px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+
+&:hover {
+  transform: rotate(402grad);
+  }
+}
+
+.link-apple, .link-android, .link-windows {
+  background: url("../../images/css-sprites-system.png") 149px 53px;
+  width: 57px;
+  height: 53px;
+  top: 4.5px;
+  display: inline-block;
+  position: relative;
+  left: 11px;
+}
+
+.link-android {
+  background: url("../../images/css-sprites-system.png") 101px 53px;
+  width: 37px;
+}
+
+.link-windows {
+  background: url("../../images/css-sprites-system.png") 48px 53px;
+  width: 37px;
+}
+
+.section-video__youtube {
+  margin-left: 65px;
+  margin-bottom: 25px;
+  width: 499px;
+  height: 301px;
+  border-radius: 15px;
+}

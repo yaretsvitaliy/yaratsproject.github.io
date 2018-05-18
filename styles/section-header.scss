@@ -1,0 +1,192 @@
+.section-header {
+  background: url("../../images/background-header.png") no-repeat;
+  background-size: 100%;
+  height: 758px;
+}
+
+.section-header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-header__float {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+.section-navigation {
+  width: 1240px;
+  height: 81px;
+  background: rgb(255, 255, 255);
+  margin-top: 28px;
+}
+
+.logo {
+  margin-left: 50px;
+  font-size: 2em;
+  color: $color-green;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px $color-white, 0px 0px 7px $color-white;
+  letter-spacing: 0.1em;
+
+  &:hover {
+    animation: blur 1.5s ease-out infinite;
+  }
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px $color-green,
+    0px 0px 10px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 25px $color-white,
+    0px 0px 50px $color-white,
+    0px 0px 50px $color-white,
+    0px 0px 50px #7B96B8,
+    0px 0px 150px #7B96B8,
+    0px 10px 100px #7B96B8,
+    0px 10px 100px #7B96B8,
+    0px 10px 100px #7B96B8,
+    0px 10px 100px #7B96B8,
+    0px -10px 100px #7B96B8,
+    0px -10px 100px #7B96B8;
+  }
+}
+
+.navigation__link {
+  color: $color-navigation;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-indent: 41px;
+  font-family: Raleway;
+  margin-left: 20px;
+
+  &:hover {
+    visibility: visible;
+    color: black;
+  }
+}
+
+.header-text {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+}
+
+.section-header__info {
+  line-height: 43px;
+}
+
+.header-main {
+  font-size: 42px;
+}
+
+.header-submain {
+  font-size: 22px;
+}
+
+.section-header__information-link {
+  line-height: 27px;
+}
+
+.information-link__one, .information-link__two, .information-link__three {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: OpenSyns;
+}
+
+.section-header__button-download {
+  width: 211px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: $color-green;
+  border-color: $color-green;
+  color: $color-white;
+  font-size: 20px;
+  font-family: OpenSyns;
+  margin-top: 81px;
+}
+
+.button-download__logo {
+  background:  url(../images/Icon_Download.png) center no-repeat;
+  width: 37px;
+  height: 35px;
+  position: relative;
+  top: 2px;
+}
+
+.button-download__text {
+  display: inline;
+  color: $color-white;
+  font-size: 20px;
+  font-family: OpenSyns;
+  position: relative;
+  top: -29px;
+}
+
+.section-header__iphone-6 {
+  position:relative;
+  top: 148px;
+  left: 0px;
+  width: 346px;
+  height: 600px;
+}
+
+.section-header__iphone-5 {
+  position:relative;
+  top: 143px;
+  left: 473px;
+  width: 382px;
+  height: 663px;
+}
+
+.section-header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.navigation {
+  margin-left: 497px;
+}
+
+.section-header__iphone {
+  margin-left: -200px;
+}
+
+.section-header__iphone-5 {
+  transition: all 1s ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.section-header__iphone-6 {
+  transition: all 1s ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
